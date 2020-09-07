@@ -1,0 +1,363 @@
+/* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  font-size: 30px;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Shadows Into Light", cursive;
+  line-height: 1.7em;
+}
+
+
+
+a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: 	#41d6d3;
+}
+
+.lead {
+  font-size: 30px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #444444;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.btn-submit{
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: 	#41d6d3;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.btn-submit:hover{
+  color: 	#41d6d3;
+  background: #fff;
+}
+
+.btn:hover {
+  background: 	#41d6d3;
+  color: #fff;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  color: #444;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #41d6d1;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Navbar */
+#navbar {
+  background: #fff;
+  color: #333;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #333;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: #41d6d3;
+}
+
+/* Showcase */
+#showcase {
+  background:url("../img/p1.jfif") no-repeat center center/cover;
+  height: 95vh;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  border-radius: 30px;
+  float: left;
+  width: 50%;
+  background: url("../img/p2.jfif") no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Features */
+
+#features {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+}
+
+.main-flex-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 25%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box i {
+  margin-bottom: 7px;
+}
+
+/* About Info */
+#about-info {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 10%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  height: 600px;
+  background: url("../img/p5.jfif") no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+.testimonial{
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  color: #444;
+  padding: 20px;
+}
+
+
+.history-main{
+  display: flex;
+}
+
+#home-info{
+  margin-top: 30px; 
+  margin-left: 20px;
+}
+
+#showcase{
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.contact-container{
+  display:flex;
+}
+
+#contact-info{
+  margin-left: 260px;
+}
